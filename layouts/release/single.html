@@ -1,0 +1,16 @@
+{{partial "header.html" .}}
+<div class="container">
+<div class="col-md-8">
+<h1>{{.Title}}</h1>
+{{.Content}}
+<small>{{dateFormat "2006 Jan 2 " .Date}}</small>
+</div>
+<div class="col-md-4">
+   <p><a href="http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-{{.BaseFileName }}/hadoop-{{.BaseFileName }}.tar.gz" class="btn btn-success">Download tar.gz</a></p>
+   <p><a href="http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-{{.BaseFileName }}/hadoop-{{.BaseFileName }}.tar.gz.asc" class="btn btn-default">Checksum</a></p>
+   <p><a href="http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-{{.BaseFileName }}/hadoop-{{.BaseFileName }}.tar.gz.mds" class="btn btn-default">Signature</a></p>
+   <p><a href="http://hadoop.apache.org/docs/r3.0.0-alpha2/{.BaseFileName }}" class="btn btn-primary">Documentation</a></p>
+
+</div>
+</div>
+{{partial "footer.html" .}}

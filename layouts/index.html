@@ -1,0 +1,51 @@
+{{partial "header.html" .}}
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        {{range where .Site.Pages "Title" "Description"}}
+        {{.Content}}
+        {{end}}
+        <p>
+          <a class="btn btn-primary btn-lg" href="http://hadoop.apache.org/docs/stable" role="button">Learn more &raquo;</a>
+          <a class="btn btn-warning btn-lg" href="/releases.html" role="button">Download &raquo;</a>
+          <a class="btn btn-success btn-lg" href="http://hadoop.apache.org/docs/stable/hadoop-project-dist/hadoop-common/SingleCluster.html" role="button">Getting started &raquo;</a>
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Latest news</h2>
+          <ul>
+
+            {{range first 15 (where (where .Site.Pages "Section" "in" "release news") ".Title" "!=" "Releases") }}
+             <li>
+               {{.Title}}
+               <small>[{{dateFormat "2006 Jan 2 " .Date}}]</small>
+               <a href="{{.URL}}">more</a>
+            {{end}}
+          </ul>
+       </div>
+        <div class="col-md-4">
+          {{range where .Site.Pages "Title" "Modules"}}
+          <h2>{{.Title}}</h2>
+          {{.Content}}
+          {{end}}
+       </div>
+       <div class="col-md-4">
+         {{range where .Site.Pages "Title" "Related projects"}}
+         <h2>{{.Title}}</h2>
+         {{.Content}}
+         {{end}}
+        </div>
+      </div>
+
+      <hr>
+
+
+    </div> <!-- /container -->
+
+{{partial "footer.html" .}}

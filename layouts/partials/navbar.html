@@ -1,0 +1,40 @@
+   <div id="navbar" class="navbar-collapse collapse">
+     <ul class="nav navbar-nav">
+       <li><a href="/">Home</a></li>
+       {{ $currentPage := . }}
+       {{ range .Site.Menus.main }}
+          {{ if .HasChildren }}
+            <li class="dropdown {{if $currentPage.HasMenuCurrent "main" . }} active{{end}}">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+             <ul class="dropdown-menu">
+               {{ range .Children }}
+                  <li {{if $currentPage.HasMenuCurrent "main" . }}class="active"{{end}}><a href="{{.URL}}">{{.Name}}</a></li>
+               {{end}}
+               {{if eq .Name "Documentation"}}
+               <li role="separator" class="divider"></li>
+               {{range first 5 (where (where $currentPage.Site.Pages "Section" "release") ".Title" "!=" "Releases") }}
+               <li><a href="http://hadoop.apache.org/docs/r{{.BaseFileName}}/">{{.BaseFileName}}</a></li>
+               {{end}}
+               <li role="separator" class="divider"></li>
+               <li><a href="http://wiki.apache.org/hadoop">Wiki</a></li>
+               {{end}}
+             </ul>
+           </li>
+          {{ else }}
+             <li class="{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+          {{ end }}
+       {{end}}
+     </ul>
+     <ul class="nav navbar-nav navbar-right">
+      <li class="dropdown">
+       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Apache Software Foundation <span class="caret"></span></a>
+       <ul class="dropdown-menu">
+         {{ range .Site.Menus.apache }}
+            <li><a href="{{.URL}}">{{.Name}}</a></li>
+         {{end}}
+       </ul>
+       </li>
+
+
+     </ul>
+   </div><!--/.nav-collapse -->
