@@ -1,6 +1,6 @@
 ---
 title: July 2008 - Hadoop Wins Terabyte Sort Benchmark
-date: 2017-03-01
+date: 2008-07-31
 ---
 
 [Hadoop Wins Terabyte Sort
