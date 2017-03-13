@@ -1,11 +1,11 @@
-<div class="section">
+---
+title: Hive and Pig Graduate
+date: 2010-10-30
+---
 
-September 2010 - Hive and Pig Graduate
 Hadoop's Hive and Pig subprojects have graduated to become top-level
 Apache projects.
 
 Apache Hive can now be found at <http://hive.apache.org/>
 
 Pig can now be found at <http://pig.apache.org/>
-
-</div>

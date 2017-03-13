@@ -1,6 +1,8 @@
-<div class="section">
+---
+date: 2009-07-31
+title: New Hadoop Subprojects
+---
 
-July 2009 - New Hadoop Subprojects
 Hadoop is getting bigger!
 
 -   Hadoop Core is renamed Hadoop Common.
@@ -10,5 +12,3 @@ Hadoop is getting bigger!
 
 See the summary descriptions for all subprojects above. Visit the
 individual sites for more detailed information.
-
-</div>
