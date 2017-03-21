@@ -66,11 +66,6 @@ uglyurls = true
    url = "http://www.apache.org/foundation/thanks.html"
    parent = "help"
 
-[[menu.apache]]
-   name = "License"
-   url = "http://www.apache.org/foundation/thanks.html"
-
-
 
 # Configure the English version of the website.
 [languages.en]

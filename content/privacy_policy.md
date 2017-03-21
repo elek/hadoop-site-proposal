@@ -1,6 +1,5 @@
 ---
-title: Privacy Policy
-menu: apache
+title: Privacy
 ---
 
 Information about your use of this website is collected using server
