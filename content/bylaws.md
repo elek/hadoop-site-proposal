@@ -1,6 +1,8 @@
 ---
-title: Apache Hadoop Project ByLaws
-menu: apache
+title: By Laws
+menu:
+   main:
+      parent: community
 ---
 
 This document defines the bylaws under which the Apache Hadoop project

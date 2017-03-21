@@ -1,7 +1,10 @@
 ---
 title: Criteria for Committership
-menu: "apache"
+menu:
+   main:
+      parent: community
 ---
+
 Committers are responsible for reviewing and integrating code changes.
 The PMC votes to make a contributor a committer based on an assessment
 of their contributions to the project. Contributions can be made in many
