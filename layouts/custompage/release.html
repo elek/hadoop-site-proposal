@@ -18,9 +18,9 @@
       <th>Release notes</th>
     </tr>
   </thead>
-  {{range first 5 (where (where .Site.Pages "Section" "release") ".Title" "!=" "Releases") }}
+  {{range first 5 (where (where .Site.Pages "Section" "release") ".Params.linked" true) }}
      <tr>
-       <td>{{.BaseFileName }}</td>
+       <td>{{.BaseFileName }} {{.Params.linked}}</td>
        <td>{{dateFormat "2006 Jan 2 " .Date}}</td>
        <td>
          <a href="http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-{{.BaseFileName }}/hadoop-{{.BaseFileName }}-src.tar.gz">source</a>

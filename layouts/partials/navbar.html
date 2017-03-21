@@ -12,7 +12,7 @@
                {{end}}
                {{if eq .Name "Documentation"}}
                <li role="separator" class="divider"></li>
-               {{range first 5 (where (where $currentPage.Site.Pages "Section" "release") ".Title" "!=" "Releases") }}
+               {{range (where (where $currentPage.Site.Pages "Section" "release") ".Params.linked" true)}}
                <li><a href="http://hadoop.apache.org/docs/r{{.BaseFileName}}/">{{.BaseFileName}}</a></li>
                {{end}}
                <li role="separator" class="divider"></li>
