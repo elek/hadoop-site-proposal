@@ -12,10 +12,10 @@
                {{if eq .Name "Documentation"}}
                <li role="separator" class="divider"></li>
                {{range (where (where $currentPage.Site.Pages "Section" "release") ".Params.linked" true)}}
-               <li><a href="http://hadoop.apache.org/docs/r{{.BaseFileName}}/">{{.BaseFileName}}</a></li>
+               <li><a href="https://hadoop.apache.org/docs/r{{.BaseFileName}}/">{{.BaseFileName}}</a></li>
                {{end}}
                <li role="separator" class="divider"></li>
-               <li><a href="http://wiki.apache.org/hadoop">Wiki</a></li>
+               <li><a href="https://wiki.apache.org/hadoop">Wiki</a></li>
                {{end}}
              </ul>
            </li>
