@@ -1,5 +1,5 @@
 ---
-title: By Laws
+title: Bylaws
 menu:
    main:
       parent: community
