@@ -4,7 +4,8 @@
 
 The site is generated with [Hugo](https://gohugo.io/). 
 
-To generate a site you need only one binary. Follow the install guide of the hugo site.
+To generate a site you need only one binary. Follow the install guide from the hugo site. (Typically all the package managers 
+contain dedicated package, but as the hugo is written in go it's also possible to download the single binary from the release page).
 
 After the installation you can generate the site with:
 
