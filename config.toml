@@ -1,9 +1,11 @@
 baseurl = "https://hadoop.apache.org"
 title = "Apache Hadoop"
-copyright = "&copy; 2017 Your Name"
+copyright = "&copy; 2017 Apache Software Foundation"
 enableEmoji = true
 footnotereturnlinkcontents = "<sup>^</sup>"
 uglyurls = true
+
+googleAnalytics = "UA-7453027-1"
 
 [[menu.main]]
   name = "Download"
