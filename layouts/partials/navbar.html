@@ -7,7 +7,7 @@
              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
              <ul class="dropdown-menu">
                {{ range .Children }}
-                  <li {{if $currentPage.HasMenuCurrent "main" . }}class="active"{{end}}><a href="{{.URL}}">{{.Name}}</a></li>
+                  <li {{if $currentPage.HasMenuCurrent "main" . }}class="active"{{end}}><a href="{{.URL | relURL}}">{{.Name}}</a></li>
                {{end}}
                {{if eq .Name "Documentation"}}
                <li role="separator" class="divider"></li>
@@ -20,7 +20,7 @@
              </ul>
            </li>
           {{ else }}
-             <li class="{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}"><a href="{{ .URL }}">{{ .Name }}</a></li>
+             <li class="{{if $currentPage.HasMenuCurrent "main" . }}active{{end}}"><a href="{{ .URL | relURL}}">{{ .Name }}</a></li>
           {{ end }}
        {{end}}
      </ul>

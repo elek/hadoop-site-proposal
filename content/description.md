@@ -1,7 +1,8 @@
 ---
 title: Description
 ---
-# <img class="hadoop-logo" src="/hadoop-logo.jpg"> Apache Hadoop
+
+![hadoop-logo](/hadoop-logo.jpg) Apache Hadoop
 
 The Apache™ Hadoop® project develops open-source software for reliable, scalable, distributed computing.
 
