@@ -70,6 +70,7 @@ order):
   kasha           |[Karthik Kambatla](http://people.apache.org/~kasha)                         |Cloudera      |           |-8
   kihwal          |[Kihwal Lee](http://people.apache.org/~kihwal)                              |Yahoo!        |           |-6
   lei             |[Lei Xu](http://people.apache.org/~lei)                                     |Cloudera      |           |-8
+  liuml07         |[Mingliang Liu](http://people.apache.org/~liuml07)                          |Salesforce    |HDFS       |-8
   llu             |[Luke Lu](http://people.apache.org/~llu)                                    |VMware        |           |-8
   mahadev         |Mahadev Konar                                                               |Hortonworks   |           |-8
   mattf           |Matt Foley                                                                  |Hortonworks   |           |-8
@@ -104,6 +105,7 @@ order):
   wangda          |Wangda Tan                                                                  |Hortonworks   |           |-8
   wheat9          |[Haohui Mai](http://haohui.me)                                              |Uber          |           |-8
   xgong           |[Xuan Gong](http://people.apache.org/~xgong)                                |Hortonworks   |           |-8
+  xiao            |Xiao Chen                                                                   |Cloudera      |HDFS       |-8
   xyao            |[Xiaoyu Yao](http://people.apache.org/~xyao)                                |Hortonworks   |           |-8
   yjzhangal       |[Yongjun Zhang](http://people.apache.org/~yjzhangal)                        |Cloudera      |           |-8
   yliu            |[Yi Liu](http://people.apache.org/~yliu)                                    |Intel         |           |+8
@@ -123,7 +125,7 @@ Hadoop's active committers include:
 
 username            |name                                                                               |organization        |roles  |timezone  |
 --------------------|-----------------------------------------------------------------------------------|--------------------|-------|----------|
-aajisaka            |Akira Ajisaka                                                                      |NTT DA|A            |       |+9
+aajisaka            |Akira Ajisaka                                                                      |NTT DATA            |       |+9
 ab                  |Andrzej Bialecki                                                                   |Getopt              |       |+1
 acmurthy            |[Arun C Murthy](http://people.apache.org/~acmurthy)                                |Hortonworks         |       |-8
 adhoot              |Anubhav Dhoot                                                                      |Cloudera            |       |-8
@@ -181,7 +183,7 @@ kkaranasos          |[Konstantinos Karanasos](http://www.microsoft.com/en-us/res
 knoguchi            |[Koji Noguchi](http://people.apache.org/~knoguchi)                                 |Yahoo!              |       |-8
 kzhang              |Kan Zhang                                                                          |IBM                 |       |-8
 lei                 |[Lei Xu](http://people.apache.org/~lei)                                            |Cloudera            |       |-8
-liuml07             |[Mingliang Liu](http://people.apache.org/~liuml07)                                 |Hortonworks         |HDFS   |-8
+liuml07             |[Mingliang Liu](http://people.apache.org/~liuml07)                                 |Salesforce          |HDFS   |-8
 lohit               |[Lohit Vijayarenu](http://people.apache.org/~lohit)                                |Twitter             |       |-8
 llu                 |[Luke Lu](http://people.apache.org/~llu)                                           |VMware              |       |-8
 lmccay              |[Larry McCay](http://people.apache.org/~lmccay)                                    |Hortonworks         |       |-5
@@ -214,10 +216,12 @@ sandy               |[Sandy Ryza](http://people.apache.org/~sandy)              
 sjlee               |[Sangjin Lee](http://people.apache.org/~sjlee)                                     |Twitter             |       |-8
 sradia              |[Sanjay Radia](http://people.apache.org/~sradia)                                   |Hortonworks         |       |-8
 sreekanth           |Sreekanth Ramakrishnan                                                             |InMobi              |       |+5.5
+sidharta            |Sidharta Seethana                                                                  |Hortonworks         |       |-8
 sseth               |Siddharth Seth                                                                     |Hortonworks         |       |-8
 stevel              |Steve Loughran                                                                     |Hortonworks         |       |0
 subru               |Subru Krishnan                                                                     |Microsoft           |       |-8
 sunilg              |Sunil G                                                                            |Hortonworks         |       |+5.5
+surendralilhore     |Surendra Singh Lilhore                                                             |Huawei              |HDFS   |+5.5
 suresh              |[Suresh Srinivas](http://people.apache.org/~suresh)                                |Hortonworks         |       |-8
 szetszwo            |[Tsz Wo (Nicholas) Sze](http://people.apache.org/~szetszwo)                        |Hortonworks         |       |-8
 tanping             |[Tanping Wang](http://people.apache.org/~tanping)                                  |Yahoo!              |       |-8
@@ -247,6 +251,7 @@ zhz                 |[Zhe Zhang](http://zhe-thoughts.github.io/about/)          
 zjshen              |[Zhijie Shen](http://people.apache.org/~zjshen)                                    |Hortonworks         |       |-8
 zshao               |[Zheng Shao](http://people.apache.org/~zshao)                                      |Facebook            |       |-8
 zxu                 |[Zhihai Xu](http://people.apache.org/~zxu)                                         |Uber                |       |-8
+
 
 ## Emeritus Hadoop Committers
 
