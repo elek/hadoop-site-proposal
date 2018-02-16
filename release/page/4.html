@@ -59,13 +59,13 @@
                
                <li role="separator" class="divider"></li>
                
-               <li><a href="https://hadoop.apache.org/docs/r3.0.0-beta1/">3.0.0-beta1</a></li>
+               <li><a href="https://hadoop.apache.org/docs/r2.9.0/">2.9.0</a></li>
                
-               <li><a href="https://hadoop.apache.org/docs/r2.7.4/">2.7.4</a></li>
+               <li><a href="https://hadoop.apache.org/docs/r2.7.5/">2.7.5</a></li>
                
-               <li><a href="https://hadoop.apache.org/docs/r2.8.1/">2.8.1</a></li>
+               <li><a href="https://hadoop.apache.org/docs/r3.0.0/">3.0.0</a></li>
                
-               <li><a href="https://hadoop.apache.org/docs/r2.6.5/">2.6.5</a></li>
+               <li><a href="https://hadoop.apache.org/docs/r2.8.3/">2.8.3</a></li>
                
                <li role="separator" class="divider"></li>
                <li><a href="https://wiki.apache.org/hadoop">Wiki</a></li>
@@ -145,6 +145,178 @@
   <div>
     <h1 id="title">Releases Archive</h1>
         <ul id="list">
+            
+            <h1><a href="/hadoop-site-proposal/release/2.2.0.html">Release 2.2.0 available</a></h1>
+            <p><small>2013 Oct 15 </small></p>
+
+            <!---
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<p>Apache Hadoop 2.2.0 is the <strong>GA</strong> release of Apache Hadoop 2.x.</p>
+
+<p>Users are encouraged to immediately move to 2.2.0 since this release is
+significantly more stable and is guaranteed to remain compatible in
+terms of both APIs and protocols.</p>
+
+<p>To recap, this release has a number of significant highlights compared
+to Hadoop 1.x:</p>
+
+<ul>
+<li>YARN - A general purpose resource management system for Hadoop to
+allow MapReduce and other other data processing frameworks and
+services</li>
+<li>High Availability for HDFS</li>
+<li>HDFS Federation</li>
+<li>HDFS Snapshots</li>
+<li>NFSv3 access to data in HDFS</li>
+<li>Support for running Hadoop on Microsoft Windows</li>
+<li>Binary Compatibility for MapReduce applications built on hadoop-1.x</li>
+<li>Substantial amount of integration testing with rest of projects in
+the ecosystem</li>
+</ul>
+
+<p>A couple of important points to note while upgrading to hadoop-2.2.0:</p>
+
+<ul>
+<li>HDFS - The HDFS community decided to push the symlinks feature out
+to a future 2.3.0 release and is currently disabled.</li>
+<li>YARN/MapReduce - Users need to change ShuffleHandler service name
+from mapreduce.shuffle to mapreduce_shuffle.</li>
+</ul>
+
+<p>Please see the <a href="http://hadoop.apache.org/docs/r2.2.0/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.2.0 Release
+Notes</a>
+for details.</p>
+
+
+            
+            <h1><a href="/hadoop-site-proposal/release/2.1.1-beta.html">Release 2.1.1-beta available</a></h1>
+            <p><small>2013 Sep 23 </small></p>
+
+            <!---
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<p>Apache Hadoop 2.1.1-beta is a bug-fix version of the beta release of
+Apache Hadoop 2.x.</p>
+
+<p>Please see the <a href="http://hadoop.apache.org/docs/r2.1.1-beta/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.1.1-beta Release
+Notes</a>
+for details.</p>
+
+
+            
+            <h1><a href="/hadoop-site-proposal/release/2.1.0-beta.html">Release 2.1.0-beta available</a></h1>
+            <p><small>2013 Aug 25 </small></p>
+
+            <!---
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<p>Apache Hadoop 2.1.0-beta is the <strong>beta</strong> release of Apache Hadoop 2.x.</p>
+
+<p>Users are encouraged to immediately move to 2.1.0-beta since this
+release is significantly more stable and has completley whetted set of
+APIs and wire-protocols for future compatibility.</p>
+
+<p>In addition, this release has a number of other significant highlights:</p>
+
+<ul>
+<li>HDFS Snapshots</li>
+<li>Support for running Hadoop on Microsoft Windows</li>
+<li>YARN API stabilization</li>
+<li>Binary Compatibility for MapReduce applications built on hadoop-1.x</li>
+<li>Substantial amount of integration testing with rest of projects in
+the ecosystem</li>
+</ul>
+
+<p>Please see the <a href="http://hadoop.apache.org/docs/r2.1.0-beta/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.1.0-beta Release
+Notes</a>
+for details.</p>
+
+
+            
+            <h1><a href="/hadoop-site-proposal/release/2.0.6-alpha.html">Release 2.0.6-alpha available</a></h1>
+            <p><small>2013 Aug 23 </small></p>
+
+            <!---
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<p>This release delivers a number of critical bug-fixes for hadoop-2.x
+uncovered during integration testing of previous release.</p>
+
+<p>Please see the <a href="http://hadoop.apache.org/docs/r2.0.6-alpha/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.0.6-alpha Release
+Notes</a>
+for details.</p>
+
+
+            
+            <h1><a href="/hadoop-site-proposal/release/1.2.1.html">Release 1.2.1 (stable) available</a></h1>
+            <p><small>2013 Aug 1 </small></p>
+
+            <!---
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+   http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License. See accompanying LICENSE file.
+-->
+
+<p>A point release for the 1.2 line. This release is now considered stable.</p>
+
+<p>Please see the <a href="http://hadoop.apache.org/docs/r1.2.1/releasenotes.html">Hadoop 1.2.1 Release
+Notes</a> for the
+list of 18 bug fixes and patches since the previous release 1.2.0.</p>
+
+
             
             <h1><a href="/hadoop-site-proposal/release/0.23.9.html">Release 0.23.9 available</a></h1>
             <p><small>2013 Jul 8 </small></p>
@@ -286,146 +458,6 @@ uncovered during integration testing.</p>
 <p>Please see the <a href="http://hadoop.apache.org/docs/r2.0.4-alpha/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.0.4-alpha Release
 Notes</a>
 for details.</p>
-
-
-            
-            <h1><a href="/hadoop-site-proposal/release/0.23.7.html">Release 0.23.7 available</a></h1>
-            <p><small>2013 Apr 18 </small></p>
-
-            <!---
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License. See accompanying LICENSE file.
--->
-
-<p>A point release for the 0.23.X line. Bug fixes to continue
-stabilization.</p>
-
-<p>Please see the <a href="http://hadoop.apache.org/docs/r0.23.7/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 0.23.7 Release
-Notes</a>
-for details.</p>
-
-
-            
-            <h1><a href="/hadoop-site-proposal/release/1.1.2.html">Release 1.1.2 available</a></h1>
-            <p><small>2013 Feb 15 </small></p>
-
-            <!---
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License. See accompanying LICENSE file.
--->
-
-<p>Point release for the 1.1.X line. Bug fixes and improvements, as
-documented in the <a href="http://hadoop.apache.org/docs/r1.1.2/releasenotes.html">Hadoop 1.1.2 Release
-Notes</a>.</p>
-
-
-            
-            <h1><a href="/hadoop-site-proposal/release/2.0.3-alpha.html">Release 2.0.3-alpha available</a></h1>
-            <p><small>2013 Feb 14 </small></p>
-
-            <!---
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License. See accompanying LICENSE file.
--->
-
-<p>This is the latest (alpha) version in the hadoop-2.x series.</p>
-
-<p>This release delivers significant major features and stability over
-previous releases in hadoop-2.x series:</p>
-
-<ul>
-<li>QJM for HDFS HA for NameNode</li>
-<li>Multi-resource scheduling (CPU and memory) for YARN</li>
-<li>YARN ResourceManager Restart</li>
-<li>Significant stability at scale for YARN (over 30,000 nodes and 14
-million applications so far, at time of release)</li>
-</ul>
-
-<p>This release, like previous releases in hadoop-2.x series is still
-considered <em>alpha</em> primarily since some of APIs aren&rsquo;t fully-baked and
-we expect some churn in future. Furthermore, please note that there are
-some API changes from previous hadoop-2.0.2-alpha release and
-applications will need to recompile against hadoop-2.0.3-alpha.</p>
-
-<p>Please see the <a href="http://hadoop.apache.org/docs/r2.0.3-alpha/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 2.0.3-alpha Release
-Notes</a>
-for details.</p>
-
-
-            
-            <h1><a href="/hadoop-site-proposal/release/0.23.6.html">Release 0.23.6 available</a></h1>
-            <p><small>2013 Feb 7 </small></p>
-
-            <!---
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License. See accompanying LICENSE file.
--->
-
-<p>A point release for the 0.23.X line. Bug fixes to continue
-stabilization.</p>
-
-<p>Please see the <a href="http://hadoop.apache.org/docs/r0.23.6/hadoop-project-dist/hadoop-common/releasenotes.html">Hadoop 0.23.6 Release
-Notes</a>
-for details.</p>
-
-
-            
-            <h1><a href="/hadoop-site-proposal/release/1.1.1.html">Release 1.1.1 available</a></h1>
-            <p><small>2012 Dec 1 </small></p>
-
-            <!---
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License. See accompanying LICENSE file.
--->
-
-<p>Point release for the 1.1.X line. Bug fixes and improvements, as
-documented in the <a href="http://hadoop.apache.org/docs/r1.1.1/releasenotes.html">Hadoop 1.1.1 Release
-Notes</a>.</p>
 
 
             

@@ -7,10 +7,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Apache Software Foundation</copyright>
-    <lastBuildDate>Tue, 03 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://elek.github.io/hadoop-site-proposal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Release 2.9.0 available</title>
+      <link>https://elek.github.io/hadoop-site-proposal/release/2.9.0.html</link>
+      <pubDate>Sun, 17 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elek.github.io/hadoop-site-proposal/release/2.9.0.html</guid>
+      <description>This is the first GA release in the 2.9 release line. It includes 30 New Features with 500+ subtasks, 407 Improvements, 790 Bug fixes new fixed issues since 2.8.2. For major features and improvements for Apache Hadoop 2.8.2 please refer: overview of major changes. For details of 790 bug fixes, improvements, and other enhancements since the previous 2.8.2 release, please check: release notes and changelog
+Please note: Although this release has been tested on fairly large clusters, production users can wait for a subsequent point release which will contain fixes from further stabilization and downstream adoption.</description>
+    </item>
+    
+    <item>
+      <title>Release 2.7.5 available</title>
+      <link>https://elek.github.io/hadoop-site-proposal/release/2.7.5.html</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elek.github.io/hadoop-site-proposal/release/2.7.5.html</guid>
+      <description>This is the next release of Apache Hadoop 2.7 line.
+Please see the Hadoop 2.7.5 Release Notes for the list of 34 bug fixes and optimizations since the previous release 2.7.4.</description>
+    </item>
+    
+    <item>
+      <title>Release 3.0.0 generally available</title>
+      <link>https://elek.github.io/hadoop-site-proposal/release/3.0.0.html</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elek.github.io/hadoop-site-proposal/release/3.0.0.html</guid>
+      <description>After four alpha releases and one beta release, 3.0.0 is generally available. 3.0.0 consists of 302 bug fixes, improvements, and other enhancements since 3.0.0-beta1. All together, 6242 issues were fixed as part of the 3.0.0 release series since 2.7.0.
+Users are encouraged to read the overview of major changes in 3.0.0. The GA release notes and changelog detail the changes since 3.0.0-beta1.</description>
+    </item>
+    
+    <item>
+      <title>Release 2.8.3 available</title>
+      <link>https://elek.github.io/hadoop-site-proposal/release/2.8.3.html</link>
+      <pubDate>Tue, 12 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elek.github.io/hadoop-site-proposal/release/2.8.3.html</guid>
+      <description>This is the next release of Apache Hadoop 2.8 release line. It contains 79 bug fixes, improvments and other enhancements since 2.8.2.
+For major features and improvements for Apache Hadoop 2.8, please refer: overview of major changes. For details of 79 fixes, improvements, and other enhancements since the previous 2.8.2 release, please check: release notes and changelog</description>
+    </item>
+    
+    <item>
+      <title>Release 2.8.2 available</title>
+      <link>https://elek.github.io/hadoop-site-proposal/release/2.8.2.html</link>
+      <pubDate>Tue, 24 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://elek.github.io/hadoop-site-proposal/release/2.8.2.html</guid>
+      <description>This is the first GA release in the 2.8 release line. It contains 315 bug fixes, improvments and other enhancements since 2.8.1. For major features and improvements for Apache Hadoop 2.8, please refer: overview of major changes. For details of 315 fixes, improvements, and other enhancements since the previous 2.8.1 release, please check: release notes and changelog</description>
+    </item>
     
     <item>
       <title>Release 3.0.0-beta1 available</title>
