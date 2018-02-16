@@ -15,7 +15,7 @@ title: Description
   limitations under the License. See accompanying LICENSE file.
 -->
 
-![hadoop-logo](/hadoop-logo.jpg) Apache Hadoop
+![hadoop-logo](hadoop-logo.jpg) Apache Hadoop
 
 The Apache™ Hadoop® project develops open-source software for reliable, scalable, distributed computing.
 
