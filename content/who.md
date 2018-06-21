@@ -67,7 +67,7 @@ order):
   jing9            |Jing Zhao                                                                    |Hortonworks    |            |-8
   jitendra         |[Jitendra Nath Pandey](http://people.apache.org/~jitendra)                   |Hortonworks    |            |-8
   jlowe            |Jason Lowe                                                                   |Oath           |            |-6
-  junping\_du      |Junping Du                                                                   |Hortonworks    |            |+8
+  junping\_du      |Junping Du                                                                   |Tencent        |            |+8
   kasha            |[Karthik Kambatla](http://people.apache.org/~kasha)                          |Cloudera       |            |-8
   kihwal           |[Kihwal Lee](http://people.apache.org/~kihwal)                               |Oath           |            |-6
   lei              |[Lei Xu](http://people.apache.org/~lei)                                      |Cloudera       |            |-8
@@ -114,7 +114,6 @@ order):
   zhz              |[Zhe Zhang](http://zhe-thoughts.github.io/about/)                            |LinkedIn       |            |-8
   zjshen           |[Zhijie Shen](http://people.apache.org/~zjshen)                              |Hortonworks    |            |-8
   zshao            |Zheng Shao                                                                   |Facebook       |            |-8
-
 
 Emeritus Hadoop PMC Members
 -   Andrzej Bialecki
@@ -177,7 +176,7 @@ jing9               |Jing Zhao                                                  
 jitendra            |[Jitendra Nath Pandey](http://people.apache.org/~jitendra)                          |Hortonworks                     |        |-8
 jlowe               |Jason Lowe                                                                          |Oath                            |        |-6
 johan               |[Johan Oskarsson](http://people.apache.org/~johan)                                  |Twitter                         |        |0
-junping\_du         |Junping Du                                                                          |Hortonworks                     |        |+8
+junping\_du         |Junping Du                                                                          |Tencent                         |        |+8
 jzhuge              |[John Zhuge](http://people.apache.org/~jzhuge)                                      |Netflix                         |        |-8
 kasha               |[Karthik Kambatla](http://people.apache.org/~kasha)                                 |Cloudera                        |        |-8
 kihwal              |[Kihwal Lee](http://people.apache.org/~kihwal)                                      |Oath                            |        |-6
@@ -211,6 +210,7 @@ rchiang             |Ray Chiang                                                 
 rkanter             |Robert Kanter                                                                       |Cloudera                        |        |-8
 rohithsharmaks      |Rohith Sharma K S                                                                   |Hortonworks                     |        |+5.5
 rvs                 |[Roman Shaposhnik](http://people.apache.org/~rvs)                                   |Pivotal                         |        |-8
+sammichen           |Sammi Chen                                                                          |Intel                           |        |+8
 schen               |[Scott Chun-Yang Chen](http://people.apache.org/~schen)                             |Facebook                        |        |-8
 sharad              |Sharad Agarwal                                                                      |InMobi                          |        |+5.5
 shv                 |[Konstantin Shvachko](http://people.apache.org/~shv)                                |LinkedIn                        |HDFS    |-8
@@ -248,6 +248,7 @@ wheat9              |[Haohui Mai](http://haohui.me)                             
 xgong               |[Xuan Gong](http://people.apache.org/~xgong)                                        |Hortonworks                     |        |-8
 xiao                |Xiao Chen                                                                           |Cloudera                        |HDFS    |-8
 xyao                |[Xiaoyu Yao](http://people.apache.org/~xyao)                                        |Hortonworks                     |        |-8
+yufei               |[Yufei Gu](http://people.apache.org/~yufei)                                         |Apple                           |        |-8
 yjzhangal           |[Yongjun Zhang](http://people.apache.org/~yjzhangal)                                |Cloudera                        |        |-8
 yliu                |[Yi Liu](http://people.apache.org/~yliu)                                            |Intel                           |        |+8
 yqlin               |[Yiqun Lin](https://github.com/linyiqun)                                            |Vipshop                         |        |+8
@@ -255,7 +256,6 @@ zhz                 |[Zhe Zhang](http://zhe-thoughts.github.io/about/)          
 zjshen              |[Zhijie Shen](http://people.apache.org/~zjshen)                                     |Hortonworks                     |        |-8
 zshao               |[Zheng Shao](http://people.apache.org/~zshao)                                       |Facebook                        |        |-8
 zxu                 |[Zhihai Xu](http://people.apache.org/~zxu)                                          |Uber                            |        |-8
-
 
 ## Emeritus Hadoop Committers
 
